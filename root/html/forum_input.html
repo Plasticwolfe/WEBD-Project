@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<!--
+	Website:
+	Webpage:
+	Author:
+	Date:
+	Filename:
+	Supporting files:
+-->
+<meta charset="utf-8">
+<title>Basic_page</title>
+</head>
+<link href="input_layout.css" rel="stylesheet"/>
+<body>
+<body>
+<nav>
+    	<ul>
+        	<li>home</li>
+            <li>trasit</li>
+            <li>forum</li>
+            <li>bus</li>
+            <li>live</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+	<header>
+		<img src="" alt="Team Slumber party logo" />
+        <h1><strong>basic_page</strong></h1>
+	</header>
+    
+	<section>
+    	<h3>Welcome to our sign up page</h3>
+        <img href="" alt="This is an image inside the second section" />
+		<section>
+		<div id="dis">
+    	<h3>Dislaimer</h3>
+        <p> We do realize that what takes place at meeting spots is up to the driver or individuals involved so we do ask that you keep stuff to be related
+			to the need of transport. How and if someone picks you up is up to the driver so please take that into consideration </p>
+			</div>
+    </section>
+
+        <p> Here you can post to the message board for Carpooling. </p>
+    </section>
+	<form id="Forum" name="ICA9" method="GET" action="forum.html"/>
+	<fieldset ="stuInfo">
+		<legend> Student information </legend>
+		<label for="idNum"> Student ID: </label>
+			<input name="stuID" id="idNum" type= "text" placeholder="Enter your W#"/><br />
+		<label for="Fname">Firstname:</label>
+			<input name="Fname" id="Fname" type="text" placeholder="Enter your Firstname"/><br />
+		<label for="Lname">Email:</label>
+			<input name="Email" id="Lname" type="text" placeholder="Enter your Email"/><br />
+		<label for="Lst">Campus:</label>
+			<input name="Campus" id="Lst" type="text" placeholder="Enter your Campus" /><br />
+<script>
+$(document).ready( function() {
+    var now = new Date();
+    var month = (now.getMonth() + 1);
+    var day = now.getDate();
+    if(month < 10) 
+        month = "0" + month;
+    if(day < 10) 
+        day = "0" + day;
+    var today = now.getFullYear() + '-' + month + '-' + day;
+    $('#datePicker').val(today);
+});
+</script>
+		<label for="visit"> Date of visit</label>
+			<input name="stuvisit" id="visit" type="date" default="today" /><br />
+		<fieldset>
+		<legend>Comments</legend>
+		<textarea name="comments" required id="comments" accesskey="p" rows="10" cols="40" maxlength="1000" ></textarea>
+		</fieldset>	
+		<input type="submit" value="Submit My Information"/>
+		<input type="reset" value="Cancel"/>
+    <section>
+    	<h2></h2>
+        <p> </p>
+    </section>
+    <section>
+    	<h3></h3>
+        <p> </p>
+		
+    </section>
+    <div id="footer">
+    <footer>if you give me a footer on any page i'll put it into all of them with proper char encoding</footer>
+	</div>
+</body>
+</html>
