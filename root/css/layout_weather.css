@@ -33,6 +33,12 @@
 		text-align: center;
 		vertical-align:middle;
 	}
+
+	section#weather_forecast2{
+		display:none;
+	}
+		
+
 		
 		
 }
@@ -63,9 +69,12 @@
 		Weather Layouts:
 	   ==============
 	*/
+
+	
 	 #weather_forecast{
 		display:none;
 	 }
+
 	
 	
 }
