@@ -11,32 +11,22 @@
 	Base Format:
    ==============
 */
+html{
+	width:75%$;
+}
 
 
+
+	
 /* ================================
 	Mobile Format: 0 to 480 Pixels
    ================================
 */
 @media only screen and (max-width: 480px) {
 	
-	/* What the hell is all this? There's no .main class in the html?
-		nav.main ul {
-			display:none;
-		}
+	 
 		
-		a#navicon:hover + ul,nav.main:hover+ul, ul:hover {
-			display:block;
-		}
-		
-		div.main {
-		font-size: 100%;
-		padding:-15%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-			width:95%;
-		}
-*/
+
 
 
 /* ================
@@ -49,6 +39,18 @@
 		Nav Format:
 	   =============
 	*/
+	nav#main ul {
+		display:none;
+		
+	}
+	
+	#navicon {
+		background-color:blue;
+	}
+	
+	a#navicon:hover + ul,nav#main:hover+ul, ul:hover {
+		display:block;
+	}
 
 
 	/* ===============================
@@ -61,6 +63,14 @@
 		width:20%;
 		float:left;
 	}
+	img#summer_map{
+		display:none;
+	}
+	img#summer_map2{
+		display:block;
+		
+	}
+	
 	
 
 	/* ===============================
@@ -97,6 +107,10 @@
 
 
 }
+
+	
+	
+
 
 
 /* =================================================
@@ -163,6 +177,14 @@
 		Section walkbike_weather Format:
 	   ==================================
 	*/
+	body>img#summer_map{
+		height:20%;
+		
+	}
+	img#summer_map2{
+		display:none;
+	}
+	
 
 
 	/* ===============================

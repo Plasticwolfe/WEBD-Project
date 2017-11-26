@@ -1,0 +1,63 @@
+/* ===================================================
+    Tablet and Desktop Styles: 481 pixels and greater
+   ===================================================
+*/
+
+@media only screen and (min-width: 481px) {
+	/* =================
+		Header Layouts:
+	   =================
+	*/
+	body header {
+		
+	}
+
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+	#navicon{
+		display:none;
+		
+	}
+	
+	
+	nav ul li {
+		display: block;
+		width: 15%;
+		text-decoration:none;
+		float: right;
+		font-size: 0.8em;
+		height: 100%;
+		text-align: center;
+		vertical-align:middle;
+	}
+		
+		
+}
+@media only screen and (max-width: 480px) {
+	/* =================
+		Header Layouts:
+	   =================
+	*/
+
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+	nav#main ul {
+		display:none;
+		
+	}
+	
+	#navicon {
+		background-color:blue;
+	}
+	
+	a#navicon:hover + ul,nav#main:hover+ul, ul:hover {
+		display:block;
+	}
+	
+}
