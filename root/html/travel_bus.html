@@ -1,49 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <!--
-	Website:
-	Webpage:
-	Author:
+	Website: Team Slumber Party's Student Travel
+	Webpage: Travel - Bus Page
+	Author: Morgan Sheridan
+	Modified By: Kai Sawler, Jordan Cyr
 	Date:
-	Filename:
+	Filename: travel_bus.html
 	Supporting files:
 -->
 
 <meta charset="utf-8">
-<title>Bus Stuff</title>
+<title>Travel - Bus</title>
 
 <link href="../css/layout_bus.css" rel="stylesheet" />
 </head>
 
 <body>
 	<header>
-		<nav>
-    			<ul>
-				<li><a href="index.html">home</a></li>
-				<li><a href="travel_bus.html">Bus page</a></li>
-				<li><a href="forum.html">Forum</a></li>
-				<li><a href="travel_walking_biking.html">walking</a></li>
-				<li><a href="weather.html">weather</a></li>
-				<li><a href="contact.html">contact</a></li>
-        		</ul>
-    		</nav>
+		<nav class="main">
+		<a href="#" id="navicon"><img src="../images/navicon.png" alt="" /></a>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../html/travel_bus.html">Travel - Bus</a></li>
+				<li><a href="../html/travel_walking_biking.html">Travel - Walking</a></li>
+				<li><a href="../html/forum.html">Forum</a></li>
+				<li><a href="../html/weather.html">Weather</a></li>
+				<li><a href="../html/contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
 		<img src="" alt="Team Slumber party logo" />
         <h1>Bus Routes &#38; Schedule:</h1>
 	</header>
+	
 	<br />
+	
     <article id="bus_introduction">
     	<p>There are a large number of students who travel to <em>NSCC COGS</em> via the <em>Kings Transit</em> Bus System. We've gathered all the information you'll need for the easiest travelling both to and from your classes here, if you choose to take the bus! For more information on the <em>Kings Transit</em> Bus System, as well as more detailed schedules, please check out their website by <a href="http://www.kingstransit.ns.ca/">clicking here!</a></p>
-        <img src="../photos/valley-bus.jpg" id="bus_introduction_picture" alt="Annapolis Valley Bus"/>
+        <img src="../photos/valley_bus.jpg" height="400px" width="85%" id="bus_introduction_picture" alt="Annapolis Valley Bus"/>
     </article>
+	<section id="desktop">
     <section>
-    	<figure>
+    	<figure id="bus">
     		<img src="../photos/bus_map.png" id="bus_route_map" alt="Map of Greenwood to Bridgetown" />
         	<figcaption>Map of the <em>Kings Transit</em> Greenwood to Bridgetown Route</figcaption>
 		</figure>
     </section>
+	
     <article id="bus_schedule">
     	<h3>Morning:</h3>
+		
         <ul id="bus_morning">
         	<li>7:00am - Greenwood Mall</li>
             <li>7:04am - Greenwood Shoppers Drug Mart</li>
@@ -59,7 +67,9 @@
             <li>8:36am - Middleton Hospital</li>
             <li>8:50am - Greenwood Mall</li>
         </ul>
+		
         <h3>Afternoon:</h3>
+		
         <ul id="bus_afternoon">
         	<li>1:42pm - NSCC COGS Campus</li>
             <li>1:55pm - Bridgetown Post Office</li>
@@ -80,7 +90,10 @@
             <li>4:32pm - NSCC Annapolis Campus</li>
             <li>4:36pm - Middleton Hospital</li>
             <li>4:50pm - Greenwood Mall</li>
+		</ul>
     </article>
+	</section>
+	
     <footer>
     	<p>&#8226; Team Slumber Party &#8226; COGS, Lawrencetown N.S &#8226; IT Programming</p>
     </footer>

@@ -11,7 +11,6 @@
 	body header {
 		
 	}
-	
 
 
 	/* ==============
@@ -34,10 +33,12 @@
 		text-align: center;
 		vertical-align:middle;
 	}
+
 	section#weather_forecast2{
 		display:none;
 	}
 		
+
 		
 		
 }
@@ -68,11 +69,12 @@
 		Weather Layouts:
 	   ==============
 	*/
-	section#weather_forecast2{
-		display:block;
-	}
+
 	
-	 
+	 #weather_forecast{
+		display:none;
+	 }
+
 	
 	
 }

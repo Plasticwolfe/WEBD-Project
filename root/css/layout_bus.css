@@ -1,16 +1,23 @@
 @charset "utf-8";
 /*
-   Author: 
-   Modified By: 
+   Author: Jordan Cyr
+   Modified By: Kai Sawler
    Date:
    
-   Filename: layout_travel_bus.css
-
+   Filename: layout_bus.css
+   Stylesheet For: travel_bus.html
 */
 /* ==============
     Base Styles:
    ==============
 */
+
+footer {
+	position: relative;
+	height: 180px;
+	clear: both;
+		}
+
 
 
 /* ===============================
@@ -29,16 +36,16 @@
 	   ==============
 	*/
 	nav.main ul {
-		display:none;
+		display: none;
 		
 	}
 	
 	#navicon {
-		background-color:blue;
+		background-color: blue;
 	}
 	
-	a#navicon:hover + ul,nav.main:hover+ul, ul:hover {
-		display:block;
+	a#navicon:hover + ul, nav.main:hover + ul, ul:hover {
+		display: block;
 	}
 	
 
@@ -46,12 +53,27 @@
 		Introduction Layouts:
 	   =======================
 	*/
+	#walk_bike_summer{
+		width:20%;
+	}
 
 
 	/* =========================
 		Figure bus_map Layouts:
 	   =========================
 	*/
+	article#bus_morning, article#bus_afternoon {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		padding-left:15%;
+	}
+	figure#bus{
+			float:left;
+			padding-bottom:10%;
+			padding-right:35%;
+			}
 
 
 	/* ===============================
@@ -79,20 +101,20 @@
 		Nav Layouts:
 	   ==============
 	*/
-	#navicon{
-		display:none;
+	#navicon {
+		display: none;
 	}
 	
 	
 	nav ul li {
 		display: block;
 		width: 15%;
-		text-decoration:none;
+		text-decoration: none;
 		float: right;
 		font-size: 0.8em;
 		height: 100%;
 		text-align: center;
-		vertical-align:middle;
+		vertical-align: middle;
 	}
 
 
@@ -100,6 +122,10 @@
 		Introduction Layouts:
 	   =======================
 	*/
+	section#desktop{
+	padding-left:10%;
+		}
+
 	#bus_introduction {
 		display: block;
 		clear: both;
@@ -116,6 +142,12 @@
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;	
 	}
+	#bus{
+		width:60%;
+	}
+	#desktop{
+		padding-left:15%;
+	}
 
 
 	/* ===============================
@@ -126,8 +158,15 @@
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-flow: row wrap;
-		flex-flow: row wrap;	
+		flex-flow: row wrap;
+		padding-left:15%;
+	}
+		
+		figure#bus{
+			float:right;
+			padding-bottom:10%;
+			width:-20%;
+			
+			}float:left;
 	}
 }
-
-
