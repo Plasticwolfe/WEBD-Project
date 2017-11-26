@@ -36,11 +36,7 @@
 		
 	</header>
 
-    <article id="weather_introduction">
-    	<h2>Weather and Traffic Updates:</h2>
-        <p>The users of our site should always be concerned with the weather when looking to travel to and from COGS. Nova Scotians know all to well that the weather can change at the drop of a hat! We hope to keep this page updated with the latest weather information, as well as any important cancellations, closures, or other information regarding the weather &#40;such as snow&#45;days, roads closing, traffic accidents due to poor conditions, etc.&#41;. Below you can find the seven day forecast, as supplied by 
-		<a href="https://www.tititudorancea.com">The Titi Tudorancea Bulletin</a>.</p>
-    </article>
+    
 
     <section id="weather_forecast">
         <p>***This is where the weather javascript(?) will go when we solve it. Feel free to mess around with this; looks neat, updates 4 times a day. - Kai***</p>
@@ -48,6 +44,30 @@
 			<!--Weather Forecast courtesy of www.tititudorancea.com-->
 			<style>
 			.WFOT1 {border:2px solid #E1E1E1; background-color:#F1F1F1; padding:10px}
+			.WFH1 {font:bold 14px Arial, sans-serif; margin-bottom:6px}
+			TABLE.WFOT TD {vertical-align:top}
+			.FCOVTMP {font:14px Arial, sans-serif; line-height:16px; padding-bottom:4px}
+			.FCOVEXP {font:12px Arial, sans-serif; line-height:14px; text-align:center}
+			.WFI {background-color:#3399FF;padding:0}
+			.WTL {color:blue;font-weight:bold}
+			.WTH {color:red;float:right;font-weight:bold}
+			.WFLK {font-size:11px;color:#900;text-decoration:none}
+			.WFDAY {font-size:12px;text-align:center;font-weight:bold}
+			</style>
+			<div style="position:relative;background-color:#FFFFFF">
+			<div id="wf_div"></div>
+			<script type="text/javascript" src="https://tools.tititudorancea.com/weather_forecast.js?place=kentville_nova_scotia_canada&amp;s=1&amp;days=7&amp;utf8=no&amp;columns=7&amp;temp=c"></script>
+			<div style="font:10px Arial, sans-serif;color:#000000" align="right"><a href="https://www.tititudorancea.com/z/weather.htm">Weather forecast</a> 
+			provided by <a href="https://www.tititudorancea.com/">tititudorancea.com</a></div>
+			</div>
+			<!--end of Weather Forecast-->
+    </section>
+	<section id="weather_forecast2">
+        <p>***This is where the weather javascript(?) will go when we solve it. Feel free to mess around with this; looks neat, updates 4 times a day. - Kai***</p>
+		
+			<!--Weather Forecast courtesy of www.tititudorancea.com-->
+			<style>
+			.WFOT1 {border:2px solid #E1E1E1; background-color:#F1F1F1;, width:1%;,padding:2px;}
 			.WFH1 {font:bold 14px Arial, sans-serif; margin-bottom:6px}
 			TABLE.WFOT TD {vertical-align:top}
 			.FCOVTMP {font:14px Arial, sans-serif; line-height:16px; padding-bottom:4px}
