@@ -12,6 +12,13 @@
    ==============
 */
 
+footer {
+	position: relative;
+	height: 180px;
+	clear: both;
+		}
+
+
 
 /* ===============================
     Mobile Styles: 0 - 480 pixels
@@ -46,12 +53,27 @@
 		Introduction Layouts:
 	   =======================
 	*/
+	#walk_bike_summer{
+		width:20%;
+	}
 
 
 	/* =========================
 		Figure bus_map Layouts:
 	   =========================
 	*/
+	article#bus_morning, article#bus_afternoon {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		padding-left:15%;
+	}
+	figure#bus{
+			float:left;
+			padding-bottom:10%;
+			padding-right:35%;
+			}
 
 
 	/* ===============================
@@ -100,6 +122,10 @@
 		Introduction Layouts:
 	   =======================
 	*/
+	section#desktop{
+	padding-left:10%;
+		}
+
 	#bus_introduction {
 		display: block;
 		clear: both;
@@ -116,6 +142,12 @@
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;	
 	}
+	#bus{
+		width:60%;
+	}
+	#desktop{
+		padding-left:15%;
+	}
 
 
 	/* ===============================
@@ -126,6 +158,15 @@
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-flow: row wrap;
-		flex-flow: row wrap;	
+		flex-flow: row wrap;
+		padding-left:15%;
+	}
+		
+		figure#bus{
+			float:right;
+			padding-bottom:10%;
+			width:-20%;
+			
+			}float:left;
 	}
 }
