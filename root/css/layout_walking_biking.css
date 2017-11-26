@@ -11,6 +11,9 @@
 	Base Format:
    ==============
 */
+html{
+	width:75%$;
+}
 	/* ================
 		Header Format:
 	   ================
@@ -59,24 +62,7 @@
 */
 @media only screen and (max-width: 480px) {
 	
-	/* What the hell is all this? There's no .main class in the html?
-		nav.main ul {
-			display:none;
-		}
-		
-		a#navicon:hover + ul,nav.main:hover+ul, ul:hover {
-			display:block;
-		}
-		
-		div.main {
-		font-size: 100%;
-		padding:-15%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-			width:95%;
-		}
-*/
+	
 	/* ================
 		Header Format:
 	   ================
@@ -87,17 +73,36 @@
 		Nav Format:
 	   =============
 	*/
+	nav#main ul {
+		display:none;
+		
+	}
+	
+	#navicon {
+		background-color:blue;
+	}
+	
+	a#navicon:hover + ul,nav#main:hover+ul, ul:hover {
+		display:block;
+	}
 	
 
 	/* ===============================
 		Aside walkbike_summer Format:
 	   ===============================
 	*/
-	#walkbike_summer {
-		display: flex;
-		flex-flow: wrap;
-		width: 20%;
-		float: left;
+	aside#summer {
+		display:flex;
+		flex-flow:wrap;
+		width:20%;
+		float:left;
+	}
+	img#summer_map{
+		display:none;
+	}
+	img#summer_map2{
+		display:block;
+		
 	}
 	
 
@@ -105,9 +110,9 @@
 		Aside walkbike_winter Format:
 	   ===============================
 	*/
-	#walkbike_winter {
-		width: 20%;	
-		float: left;
+	aside#winter {
+		width:20%;	
+		float:left;
 	}
 	
 
@@ -163,7 +168,7 @@
 		font-size: 0.8em; 
 		height: 100%;
 		text-align: center;
-		vertical-align: middle;
+		vertical-align:middle;
 	}
 	
 
@@ -201,12 +206,23 @@
 		Section walkbike_weather Format:
 	   ==================================
 	*/
+	body>img#summer_map{
+		height:20%;
+		
+	}
+	img#summer_map2{
+		display:none;
+	}
+	
 	
 
 	/* ===============================
 		Article walkbike_tips Format:
 	   ===============================
 	*/
+	#walkbike_weather{
+		padding-top:5%;
+	}
 	#walkbike_tips {
 		display: -webkit-flex;
 		display: flex;
