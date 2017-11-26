@@ -1,11 +1,11 @@
 @charset "utf-8";
 /*
-   Author: 
-   Modified By: 
+   Author: Jordan Cyr
+   Modified By: Kai Sawler
    Date:
    
-   Filename: layout_travel_bus.css
-
+   Filename: layout_bus.css
+   Stylesheet For: travel_bus.html
 */
 /* ==============
     Base Styles:
@@ -29,16 +29,16 @@
 	   ==============
 	*/
 	nav.main ul {
-		display:none;
+		display: none;
 		
 	}
 	
 	#navicon {
-		background-color:blue;
+		background-color: blue;
 	}
 	
-	a#navicon:hover + ul,nav.main:hover+ul, ul:hover {
-		display:block;
+	a#navicon:hover + ul, nav.main:hover + ul, ul:hover {
+		display: block;
 	}
 	
 
@@ -79,20 +79,20 @@
 		Nav Layouts:
 	   ==============
 	*/
-	#navicon{
-		display:none;
+	#navicon {
+		display: none;
 	}
 	
 	
 	nav ul li {
 		display: block;
 		width: 15%;
-		text-decoration:none;
+		text-decoration: none;
 		float: right;
 		font-size: 0.8em;
 		height: 100%;
 		text-align: center;
-		vertical-align:middle;
+		vertical-align: middle;
 	}
 
 
@@ -129,5 +129,3 @@
 		flex-flow: row wrap;	
 	}
 }
-
-
