@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*
+	Website:
+	Webpage:
+	Author:
+	Date:
+	Filename:
+	Supporting files:
+*/
+
+/* Header styles */
+
+header h1 {
+	border: 0.3em outset #9BE5E4;
+}
+
+nav ul li {
+	background-color:#877D7D;
+		
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 1.1em;
+	color: #FFFFFF;
+}
+
+nav ul li a::visited {
+	color:#EC6DD8;	
+}
+
+nav ul li a::active {
+	background-color: #474443;
+	color: #7CF5AF;
+}
+
+nav ul li a::hover {
+	background-color:#000000;
+	cursor:pointer;	
+}
+
+/* Body styles */
+
+body {
+	background-color: #F2D761;
+}
+
+ body article h3 {
+	text-decoration: underline;
+	font-size: 1.2em;
+}
