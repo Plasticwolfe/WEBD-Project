@@ -63,16 +63,7 @@
 		Nav Layouts:
 	   ==============
 	*/
-	nav > ul > li {
-		display: block;
-		width: 15%;
-		float: right;
-		font-size: 0.8em; 
-		height: 100%;
-		text-align: center;
-		vertical-align: middle;
-		margin-top: 2%;
-	}	
+		
 
 	nav.main ul {
 		display: none;
@@ -115,6 +106,16 @@
 	*/
 	#navicon {
 		display: none;
+	}
+	nav > ul > li {
+		display: block;
+		width: 15%;
+		float: right;
+		font-size: 0.8em; 
+		height: 100%;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: 2%;
 	}
 
 	/* ==================================
