@@ -14,6 +14,7 @@
 	<title>Contact Us</title>
 
 	<link href="../css/layout_contact.css" rel="stylesheet"/>
+	<link href="../css/style_contact.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -33,47 +34,57 @@
 		<h1><strong>Contact Information &#38; About Us:</strong></h1>
 	</header>
 
-    <section id="contact_members">
-		<aside id="contact_kai">
-			<h3>Kai Sawler</h3>
+	<section id="contact_introduction">
+		<p>Got some advice you'd like to leave <em>Team Slumber Party</em>? Maybe you've got a comment you want to let us know, or maybe you just want to tell us how much you enjoy pinapple on your pizza? Leave us a little message here! If you include your e-mail, we'll get back to you as soon as we can (though we may be busy arguing over whether or not to have pinapple on our pizza (The answer is always yes!)), and thanks for visiting the site!</p>
+	</section>
+	
+	<script>
+		function show_alert() {
+		alert("Thank you for Submitting your Questions/Comments!");
+		}
+	</script>
+	
+    <section id="contact_section_form">
+		<form id="contact_form" name="contact_form" method="GET"  action="contact_output.html"/>
+		<!-- Need to create contact_output.html" -->
+		<fieldset ="stuInfo">
+			<legend>Student information</legend>
 			
-			<h4>Content Gathering, Graphical Design, Web Structure, and Updates</h4>
+			<label for="idNum">Student ID:</label>
+			<input name="stuID" id="idNum" type= "text" placeholder="Enter your W#"/><br />
+				
+			<label for="Fname">Name (required):</label>
+			<input name="Fname" id="Fname" type="text" :required placeholder="Enter your Name"/><br />
 			
-			<img src="../photos/contact_kai.jpg" alt="Image of Kai Sawler"/>
+			<script>
+			$(document).ready( function() {
+				var now = new Date();
+				var month = (now.getMonth() + 1);
+				var day = now.getDate();
+				if(month < 10) 
+					month = "0" + month;
+				if(day < 10) 
+					day = "0" + day;
+				var today = now.getFullYear() + '-' + month + '-' + day;
+				$('#datePicker').val(today);
+			});
+			</script>
 			
-			<h4>Contact Kai Sawler</h4>
-			
-			<ul> 
-				<li><a href="tel:+19025992728">Phone: +1 &#40;902&#41; 599-2728</a></li>
-				<li><a href="mailto:w0416209@nscc.ca">E-mail: w20416209@nscc.ca</a></li>
-			</ul>
-		</aside>
+			<label for="visit"> Date of visit</label>
+			<input name="stuvisit" id="visit" type="date" default="today" /><br />
+		</fieldset>
 		
-		<aside>
-			<h3 id="contact_morgan">Morgan Sheridan</h3>
+		<fieldset>
+			<legend>Comments (required):</legend>
 			
-			<h4>CSS Styling, Javascript, Databases and Research</h4>
+			<textarea name="comments" :required id="comments" accesskey="p" rows="10" cols="40" maxlength="1000" ></textarea>
 			
-			<img src="" alt="Image of Morgan Sheridan"/>
+			<input type="submit" value="Submit My Information" onclick="show_alert();"/>
 			
-			<ul>
-				<li><a href="tel:+19025991831">Phone: +1 &#40;902&#41; 599-1831</a></li>
-				<li><a href="mailto:w0411465@nscc.ca">E-mail: w20411465@nscc.ca</a></li>
-			</ul>
-		</aside>
-		
-		<aside>
-			<h3 id="contact_jordan">Jordan Cyr</h3>
 			
-			<h4>CSS Layout, Webpage Design and Public Relations</h4>
 			
-			<img src="" alt="Image of Jordan Cyr"/>
-			
-			<ul>
-				<li><a href="tel:+19028244621">Phone: +1 &#40;902&#41; 824-4621</a></li>
-				<li><a href="mailto:w0411703@nscc.ca">E-mail: w0411703@nscc.ca</a></li>	
-			</ul>
-		</aside>
+			<input type="reset" value="Cancel"/>
+		</fieldset>	
     </section>
 	
     <footer>&#8226; Team Slumber Party &#8226; COGS, Lawrencetown N.S &#8226; IT Programming</footer>

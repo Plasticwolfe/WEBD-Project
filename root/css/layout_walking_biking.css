@@ -163,7 +163,7 @@ html{
 
 	 nav > ul > li {
 		display: block;
-		width: 15%;
+		width: 12%;
 		float: right;
 		font-size: 0.8em; 
 		height: 100%;
@@ -181,7 +181,7 @@ html{
 		display: flex;
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
-		padding: 7%;		
+		padding: 1% 7%;		
 		width: 20%;
 		float: left;
 	}
@@ -196,7 +196,7 @@ html{
 		display: flex;
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
-		padding: 7%;	
+		padding: 1% 7%;	
 		width: 20%;	
 		float: left;
 	}
@@ -239,6 +239,7 @@ html{
 	*/
 	footer {
 	  position: relative;
+	  align-content:center;
 	  height: 180px;
 	  clear: both;
 	}
