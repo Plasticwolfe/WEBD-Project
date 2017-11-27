@@ -181,7 +181,7 @@ html{
 		display: flex;
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
-		padding: 7%;		
+		padding: 1%;		
 		width: 20%;
 		float: left;
 	}
@@ -196,7 +196,7 @@ html{
 		display: flex;
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
-		padding: 7%;	
+		padding: 1%;	
 		width: 20%;	
 		float: left;
 	}
