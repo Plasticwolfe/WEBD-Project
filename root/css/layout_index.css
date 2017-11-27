@@ -1,17 +1,68 @@
-footer {
-  position: relative;
-  
-  height: 180px;
-  clear: both;
-}
+@charset "utf-8";
+/*
+   Author: Jordan Cyr
+   Modified By: Kai Sawler
+   Date:
+   
+   Filename: layout_contact.css
+   Stylesheet For: contact.html
+*/
+/* ==============
+    Base Styles:
+   ==============
+*/
+	/* =================
+	    Header Layouts:
+	   =================
+	*/
+	html {
+		height: 95%;
+	}
 
+
+
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+		footer {
+			position: relative;
+			height: 180px;
+			clear: both;
+			}
+
+/* ===============================
+    Mobile Styles: 0 - 480 pixels
+   ===============================
+*/
 @media only screen and (max-width: 480px) {
+	/* =================
+		Header Layouts:
+	   =================
+	*/
+
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+		
+
 	nav.main ul {
-		display:none;	
+		display: none;
+		
 	}
-	a#navicon:hover + ul,nav.main:hover+ul, ul:hover {
-		display:block;
+	
+	a#navicon:hover + ul, nav.main:hover + ul, ul:hover {
+		display: block;
 	}
+
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+	
+
 }
 
 
@@ -20,6 +71,11 @@ footer {
    =================================================
 */
 @media only screen and (min-width: 481px) {
+	
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
 	#navicon{
 		display:none;
 	}
@@ -33,5 +89,10 @@ footer {
 	text-decoration:none;
 	vertical-align:middle;
 	margin-top:2%;
-}
+	}
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+	
 }
