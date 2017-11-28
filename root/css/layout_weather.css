@@ -33,12 +33,6 @@
 		text-align: center;
 		vertical-align:middle;
 	}
-
-	
-		
-
-		
-		
 }
 @media only screen and (max-width: 480px) {
 	/* =================
@@ -51,17 +45,17 @@
 		Nav Layouts:
 	   ==============
 	*/
-	nav#main ul {
-		display:none;
+
+	
+	nav#main ul li a {
+        text-align: center;
+        float: none;
+		text-decoration:none;
 		
-	}
+    }
 	
-	#navicon {
-		background-color:blue;
-	}
-	
-	a#navicon:hover + ul,nav#main:hover+ul, ul:hover {
-		display:block;
+	li{
+	border: 1px solid #555;
 	}
 	/* ==============
 		Weather Layouts:

@@ -63,16 +63,17 @@
 		Nav Layouts:
 	   ==============
 	*/
+		nav#main ul li a {
+        text-align: center;
+        float: none;
+		text-decoration:none;
 		
+    }
+	li{
+	border: 1px solid #555;
+	}
 
-	nav.main ul {
-		display: none;
-		
-	}
-	
-	a#navicon:hover + ul, nav.main:hover + ul, ul:hover {
-		display: block;
-	}
+
 
 	/* ==================================
 		Section contact_members Layouts:
