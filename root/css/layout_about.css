@@ -30,11 +30,13 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-	nav.main ul {
-		display:none;	
-	}
-	a#navicon:hover + ul,nav.main:hover+ul, ul:hover {
-		display:block;
+	nav#main ul li a {
+        text-align: center;
+        float: none;
+		text-decoration:none;
+    }
+	li{
+	border: 1px solid #555;
 	}
 	#about_jordan{
 	margin-left:5%;
