@@ -50,3 +50,12 @@ body {
 	text-decoration: underline;
 	font-size: 1.2em;
 }
+
+/* specific to page */
+
+#weather_forecast {
+	border: 0.5em groove #9BE5E4;
+	border-radius: 1.3em;
+	padding:3px;
+	
+}
