@@ -1,0 +1,177 @@
+@charset "utf-8";
+/*
+   Author: Jordan Cyr
+   Modified By: Kai Sawler
+   Date:
+   
+   Filename: layout_forum_input.css
+   Stylesheet For: forum_input.html
+*/
+/* ==============
+    Base Styles:
+   ==============
+*/
+	/* =================
+	    Header Layouts:
+	   =================
+	*/
+	
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+	nav > ul > li {
+		display: block;
+		width: 15%;
+		float: right;
+		font-size: 0.8em; 
+		height: 100%;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: 2%;
+	}
+
+	/* =====================================
+		Section input_introduction Layouts:
+	   =====================================
+	*/
+	#input_introduction {
+		width: 40%;
+		margin-left: 15%;
+		vertical-align: center;
+}
+
+	/* =============================
+		Section input_form Layouts:
+	   =============================
+	*/
+	
+
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+	footer {
+	  position: relative;
+	  align-content:center;
+	  height: 180px;
+	  clear: both;
+		text-align:center;
+
+	}
+
+
+/* ===============================
+    Mobile Styles: 0 - 480 pixels
+   ===============================
+*/
+@media only screen and (max-width: 480px) {
+	/* =================
+		Header Layouts:
+	   =================
+	*/
+	
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+	nav#main ul li a {
+        text-align: center;
+        float: none;
+		text-decoration:none;
+		
+    }
+	li{
+	border: 1px solid #555;
+	}
+	
+
+	/* =====================================
+		Section input_introduction Layouts:
+	   =====================================
+	*/
+	#input_introduction {
+		width: 70%;
+		margin-left: 15%;
+		vertical-align: center;
+	}
+	
+	
+	/* =============================
+		Section input_form Layouts:
+	   =============================
+	*/
+	
+
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+	
+
+}
+
+
+/* ===================================================
+    Tablet and Desktop Styles: 481 pixels and greater
+   ===================================================
+*/
+@media only screen and (min-width: 481px) {
+	/* =================
+		Header Layouts:
+	   =================
+	*/
+	
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+	#logo{
+		float:left;
+	}
+	nav > ul > li {
+	display: block;
+	width: 15%;
+	float: left;
+	font-size: 0.8em; 
+	height: 100%;
+	text-align: center;
+	text-decoration:none;
+	vertical-align:middle;
+	margin-bottom:2%;
+	margin-top:1%;
+	}
+	ul>li{
+		padding-top:1%;
+	}
+	#nav{
+		padding-bottom:5%;
+	}
+	h1{
+		clear:both;
+	}
+	li{
+	border: 1px solid #555;
+	}
+	/* =====================================
+		Section input_introduction Layouts:
+	   =====================================
+	*/
+	
+
+	/* =============================
+		Section input_form Layouts:
+	   =============================
+	*/
+	
+
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+	
+
+}
