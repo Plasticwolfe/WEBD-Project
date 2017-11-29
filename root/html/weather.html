@@ -10,17 +10,31 @@
 	Filename: weather.html
 	Supporting files:
 -->
+	<style>
+			.WFOT1 {border:2px solid #E1E1E1; background-color:#F1F1F1; padding:0px}
+			.WFH1 {font:bold 14px Arial, sans-serif; margin-bottom:6px; text-align:center;}
+			TABLE.WFOT TD {vertical-align:top}
+			.FCOVTMP {font:14px Arial, sans-serif; line-height:16px; padding-bottom:4px}
+			.FCOVEXP {font:12px Arial, sans-serif; line-height:14px; text-align:center}
+			.WFI {background-color:#3399FF;padding:0}
+			.WTL {color:blue;font-weight:bold}
+			.WTH {color:red;float:right;font-weight:bold}
+			.WFLK {font-size:11px;color:#900;text-decoration:none}
+			.WFDAY {font-size:12px;text-align:center;font-weight:bold}
+			</style>
 	<meta charset="utf-8">
 	<title>Weather</title>
 	
 	<link href="../css/layout_weather.css" rel="stylesheet"/>
     <link href="../css/style_base.css" rel="stylesheet" />
 	<link href="../css/style_weather.css" rel="stylesheet" type="text/css">
+	
 </head>
 
 <body>
-<body>
+
 	<header>
+	<h2></h2>
    <section id="nav">
         <figure id="logo">
         <img src="../photos/logo_transparent.png" alt="Team Slumber Party Logo" />
@@ -44,22 +58,12 @@
 
     
 	<!-- Grabs a seven day forcast from tititudorancea to be dispayed on page -->
+	<h2></h2>
     <section id="weather_forecast">
         <!--<p>***This is where the weather javascript(?) will go when we solve it. Feel free to mess around with this; looks neat, updates 4 times a day. - Kai***</p>-->
 		
 			<!--Weather Forecast courtesy of www.tititudorancea.com-->
-			<style>
-			.WFOT1 {border:2px solid #E1E1E1; background-color:#F1F1F1; padding:0px}
-			.WFH1 {font:bold 14px Arial, sans-serif; margin-bottom:6px; text-align:center;}
-			TABLE.WFOT TD {vertical-align:top}
-			.FCOVTMP {font:14px Arial, sans-serif; line-height:16px; padding-bottom:4px}
-			.FCOVEXP {font:12px Arial, sans-serif; line-height:14px; text-align:center}
-			.WFI {background-color:#3399FF;padding:0}
-			.WTL {color:blue;font-weight:bold}
-			.WTH {color:red;float:right;font-weight:bold}
-			.WFLK {font-size:11px;color:#900;text-decoration:none}
-			.WFDAY {font-size:12px;text-align:center;font-weight:bold}
-			</style>
+			
 			<div style="position:relative;background-color:#FFFFFF; border-radius:0.85em;">
 			<div id="wf_div"></div>
 			<script type="text/javascript" src="https://tools.tititudorancea.com/weather_forecast.js?place=kentville_nova_scotia_canada&amp;s=1&amp;days=7&amp;utf8=no&amp;columns=7&amp;temp=c"></script>
