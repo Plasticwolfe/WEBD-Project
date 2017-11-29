@@ -15,6 +15,10 @@ header h1 {
 	border: 0.3em outset #9BE5E4;
 }
 
+nav ul{
+	padding: 1em;
+}
+
 nav ul li {
 	background-color:#877D7D;
 		
@@ -26,16 +30,12 @@ nav ul li a{
 	color: #FFFFFF;
 }
 
-nav ul li a::visited {
-	color:#EC6DD8;	
-}
-
-nav ul li a::active {
+nav ul li:active {
 	background-color: #474443;
 	color: #7CF5AF;
 }
 
-nav ul li a::hover {
+nav ul li:hover {
 	background-color:#000000;
 	cursor:pointer;	
 }
