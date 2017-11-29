@@ -77,20 +77,36 @@
 		Nav Layouts:
 	   ==============
 	*/
-	#navicon{
-		display:none;
+	#logo{
+		float:left;
 	}
 	nav > ul > li {
 	display: block;
 	width: 15%;
-	float: right;
+	float: left;
 	font-size: 0.8em; 
 	height: 100%;
 	text-align: center;
 	text-decoration:none;
 	vertical-align:middle;
-	margin-top:2%;
+	margin-bottom:2%;
+	margin-top:1%;
 	}
+	ul>li{
+		padding-top:1%;
+	}
+	#nav{
+		padding-bottom:5%;
+	}
+	h1{
+		clear:both;
+	}
+	li{
+	border: 1px solid #555;
+	}
+		
+	
+
 	/* =================
 		Footer Layouts:
 	   =================
