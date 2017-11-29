@@ -8,7 +8,9 @@
 	Filename:
 	Supporting files:
 */
-
+body p a:visited{
+	color: #0000EE;
+}
 /* Header styles */
 
 header h1 {
@@ -28,11 +30,6 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 1.1em;
 	color: #FFFFFF;
-}
-
-nav ul li:active {
-	background-color: #474443;
-	color: #7CF5AF;
 }
 
 nav ul li:hover {

@@ -26,15 +26,6 @@ nav ul li a{
 	color: #FFFFFF;
 }
 
-nav ul li a::visited {
-	color:#EC6DD8;	
-}
-
-nav ul li a::active {
-	background-color: #474443;
-	color: #7CF5AF;
-}
-
 nav ul li a::hover {
 	background-color:#000000;
 	cursor:pointer;	
