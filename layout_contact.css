@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*
+   Author: Jordan Cyr
+   Modified By: Kai Sawler
+   Date:
+   
+   Filename: layout_contact.css
+   Stylesheet For: contact.html
+*/
+/* ==============
+    Base Styles:
+   ==============
+*/
+	/* =================
+	    Header Layouts:
+	   =================
+	*/
+	html {
+		height: 95%;
+	}
+
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+
+
+	/* ==================================
+		Section contact_members Layouts:
+	   ==================================
+	*/
+	#contact_members {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+	}
+	
+	#contact_members aside {
+		margin-left: 5%;
+	}
+
+
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+
+
+/* ===============================
+    Mobile Styles: 0 - 480 pixels
+   ===============================
+*/
+@media only screen and (max-width: 480px) {
+	/* =================
+		Header Layouts:
+	   =================
+	*/
+
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+		nav#main ul li a {
+        text-align: center;
+        float: none;
+		text-decoration:none;
+		
+    }
+	li{
+	border: 1px solid #555;
+	}
+
+
+
+	/* ==================================
+		Section contact_members Layouts:
+	   ==================================
+	*/
+	
+
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+	
+
+}
+
+
+/* ===================================================
+    Tablet and Desktop Styles: 481 pixels and greater
+   ===================================================
+*/
+@media only screen and (min-width: 481px) {
+	/* =================
+		Header Layouts:
+	   =================
+	*/
+
+
+	/* ==============
+		Nav Layouts:
+	   ==============
+	*/
+	#logo{
+		float:left;
+	}
+	nav > ul > li {
+	display: block;
+	width: 15%;
+	float: left;
+	font-size: 0.8em; 
+	height: 100%;
+	text-align: center;
+	text-decoration:none;
+	vertical-align:middle;
+	margin-bottom:2%;
+	margin-top:1%;
+	}
+	ul>li{
+		padding-top:1%;
+	}
+	#nav{
+		padding-bottom:5%;
+	}
+	h1{
+		clear:both;
+	}
+	li{
+	border: 1px solid #555;
+	}
+	/* ==================================
+		Section contact_members Layouts:
+	   ==================================
+	*/
+
+
+	/* =================
+		Footer Layouts:
+	   =================
+	*/
+	
+	
+}

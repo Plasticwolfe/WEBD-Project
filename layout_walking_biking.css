@@ -1,0 +1,258 @@
+@charset "utf-8";
+/*
+   Author: Jordan Cyr
+   Modified By: Kai Sawler
+   Date:
+   
+   Filename: layout_walking_biking.css
+   Stylesheet For: travel_walking_biking.html
+*/
+/* ==============
+	Base Format:
+   ==============
+*/
+html{
+	width:75%$;
+}
+	/* ================
+		Header Format:
+	   ================
+	*/
+	
+
+	/* =============
+		Nav Format:
+	   =============
+	*/
+	
+
+	/* ===============================
+		Aside walkbike_summer Format:
+	   ===============================
+	*/
+	
+
+	/* ===============================
+		Aside walkbike_winter Format:
+	   ===============================
+	*/
+	
+	
+	/* ==================================
+		Section walkbike_weather Format:
+	   ==================================
+	*/
+	
+
+	/* ===============================
+		Article walkbike_tips Format:
+	   ===============================
+	*/
+	
+
+	/* ================
+		Footer Format:
+	   ================
+	*/
+	
+
+/* ================================
+	Mobile Format: 0 to 480 Pixels
+   ================================
+*/
+@media only screen and (max-width: 480px) {
+	
+	
+	/* ================
+		Header Format:
+	   ================
+	*/
+	
+
+	/* =============
+		Nav Format:
+	   =============
+	*/
+	nav#main ul li a {
+        text-align: center;
+        float: none;
+		text-decoration:none;
+		
+    }
+	li{
+	border: 1px solid #555;
+	}
+	
+
+	/* ===============================
+		Aside walkbike_summer Format:
+	   ===============================
+	*/
+	aside#summer {
+		display:flex;
+		flex-flow:wrap;
+		width:20%;
+		float:left;
+	}
+	img#summer_map{
+		display:none;
+	}
+	img#summer_map2{
+		display:block;
+		
+	}
+	
+
+	/* ===============================
+		Aside walkbike_winter Format:
+	   ===============================
+	*/
+	aside#winter {
+		width:20%;	
+		float:left;
+	}
+	
+
+	/* ==================================
+		Section walkbike_weather Format:
+	   ==================================
+	*/
+	
+
+	/* ===============================
+		Article walkbike_tips Format:
+	   ===============================
+	*/
+	.tips {
+		position: relative;
+		height: 180px;
+		clear: both;
+	}
+	
+
+	/* ================
+		Footer Format:
+	   ================
+	*/
+	
+
+}
+
+
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/
+@media only screen and (min-width: 481px) {
+	/* ================
+		Header Format:
+	   ================
+	*/
+	
+
+	/* =============
+		Nav Format:
+	   =============
+	*/
+	#logo{
+		float:left;
+	}
+	nav > ul > li {
+	display: block;
+	width: 15%;
+	float: left;
+	font-size: 0.8em; 
+	height: 100%;
+	text-align: center;
+	text-decoration:none;
+	vertical-align:middle;
+	margin-bottom:2%;
+	margin-top:1%;
+	}
+	ul>li{
+		padding-top:1%;
+	}
+	#nav{
+		padding-bottom:5%;
+	}
+	h1{
+		clear:both;
+	}
+	li{
+	border: 1px solid #555;
+	}
+
+	/* ===============================
+		Aside walkbike_summer Format:
+	   ===============================
+	*/
+	#walkbike_summer {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		padding: 1% 7%;		
+		width: 20%;
+		float: left;
+	}
+	
+
+	/* ===============================
+		Aside walkbike_winter Format:
+	   ===============================
+	*/
+	#walkbike_winter {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		padding: 1% 7%;	
+		width: 20%;	
+		float: left;
+	}
+	
+
+	/* ==================================
+		Section walkbike_weather Format:
+	   ==================================
+	*/
+	body>img#summer_map{
+		height:20%;
+		
+	}
+	img#summer_map2{
+		display:none;
+	}
+	
+	
+
+	/* ===============================
+		Article walkbike_tips Format:
+	   ===============================
+	*/
+	#walkbike_weather{
+		padding-top:5%;
+	}
+	#walkbike_tips {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;	
+		width: 20%;
+		float: left;
+	}
+	
+
+	/* ================
+		Footer Format:
+	   ================
+	*/
+	footer {
+	  position: relative;
+	  align-content:center;
+	  height: 180px;
+	  clear: both;
+	}
+	
+
+}
