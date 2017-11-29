@@ -44,6 +44,12 @@
 	li{
 	border: 1px solid #555;
 	}
+	footer {
+	position: relative;
+	height: 180px;
+	clear: both;
+	text-align:center;
+		}
 }
 @media only screen and (max-width: 480px) {
 	/* =================

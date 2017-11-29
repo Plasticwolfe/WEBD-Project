@@ -26,11 +26,11 @@
 	   =================
 	*/
 		footer {
-			position: relative;
-			height: 180px;
-			clear: both;
-			}
-
+	position: relative;
+	height: 180px;
+	clear: both;
+	text-align:center;
+		}
 /* ===============================
     Mobile Styles: 0 - 480 pixels
    ===============================

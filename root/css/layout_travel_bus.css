@@ -14,13 +14,18 @@
 
 
 footer {
+	
 	position: relative;
 	height: 180px;
 	clear: both;
+	text-align:center;
 		}
 #bus_introduction_picture{
 	height:400px ;
 	width:85%;
+}
+#bus_schedule{
+	width:35%;
 }
 
 
