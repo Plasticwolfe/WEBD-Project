@@ -50,6 +50,7 @@
 		position: relative;
 		height: 180px;
 		clear: both;
+		text-align:center;
 	}
 
 /* ===============================
@@ -89,12 +90,6 @@
 		Article carpool_disclaimer Layouts:
 	   =====================================
 	*/
-		 #carpool_disclaimer {	
-   
-		width: 40%;
-		margin-left: 15%;
-	 }
-
 	/* =================
 		Footer Layouts:
 	   =================
@@ -113,6 +108,12 @@
 		Header Layouts:
 	   =================
 	*/
+	#dis{
+		float:left;
+		width:40%;
+		
+		
+	}
 	
 
 	/* ==============

@@ -15,6 +15,11 @@
 	    Header Layouts:
 	   =================
 	*/
+	#dis{
+		float:right;
+		width:40%;
+	}
+		
 	
 
 	/* ==============
@@ -56,6 +61,7 @@
 		position: relative;
 		height: 180px;
 		clear: both;
+		text-align:center;
 	}
 
 
