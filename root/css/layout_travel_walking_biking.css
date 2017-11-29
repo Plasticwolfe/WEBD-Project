@@ -94,6 +94,7 @@ html{
 		width:20%;
 		float:left;
 	}
+
 	img#summer_map{
 		display:none;
 	}
@@ -154,20 +155,34 @@ html{
 		Nav Format:
 	   =============
 	*/
-	#navicon {
-		display:none;
+	#logo{
+		float:left;
+	}
+	nav > ul > li {
+	display: block;
+	width: 15%;
+	float: left;
+	font-size: 0.8em; 
+	height: 100%;
+	text-align: center;
+	text-decoration:none;
+	vertical-align:middle;
+	margin-bottom:2%;
+	margin-top:1%;
+	}
+	ul>li{
+		padding-top:1%;
+	}
+	#nav{
+		padding-bottom:5%;
+	}
+	h1{
+		clear:both;
+	}
+	li{
+	border: 1px solid #555;
 	}
 
-	 nav > ul > li {
-		display: block;
-		width: 12%;
-		float: right;
-		font-size: 0.8em; 
-		height: 100%;
-		text-align: center;
-		vertical-align:middle;
-	}
-	
 
 	/* ===============================
 		Aside walkbike_summer Format:
@@ -239,6 +254,8 @@ html{
 	  align-content:center;
 	  height: 180px;
 	  clear: both;
+		text-align:center;
+
 	}
 	
 
