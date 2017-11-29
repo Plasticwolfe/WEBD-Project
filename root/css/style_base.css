@@ -43,6 +43,11 @@ nav ul li:hover {
 /* Body styles */
 
 body {
+	margin-left: 5%;
+	margin-right: 5%;	
+}
+
+body {
 		background-color: #F2D761;
 }
 
