@@ -47,9 +47,12 @@
 	   =================
 	*/
 	footer {
-		position: relative;
-		height: 180px;
-		clear: both;
+	  position: relative;
+	  align-content:center;
+	  height: 180px;
+	  clear: both;
+		text-align:center;
+
 	}
 
 /* ===============================

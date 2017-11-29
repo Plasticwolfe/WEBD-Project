@@ -14,10 +14,13 @@
 
 
 footer {
-	position: relative;
-	height: 180px;
-	clear: both;
-		}
+	  position: relative;
+	  align-content:center;
+	  height: 180px;
+	  clear: both;
+		text-align:center;
+
+	}
 #bus_introduction_picture{
 	height:400px ;
 	width:85%;
@@ -64,6 +67,9 @@ footer {
 		Figure bus_map Layouts:
 	   =========================
 	*/
+	#travel{
+		width:100%;
+	}
 	article#bus_morning, article#bus_afternoon {
 		display: -webkit-flex;
 		display: flex;
@@ -75,6 +81,7 @@ footer {
 			float:left;
 			padding-bottom:10%;
 			padding-right:35%;
+		
 			}
 
 
@@ -97,6 +104,10 @@ footer {
 	body header {
 		
 	}
+	#bus_schedule{
+		width:30%;
+	}
+		
 
 
 	/* ==============
@@ -161,6 +172,9 @@ footer {
 	}
 	#desktop{
 		padding-left:15%;
+	}
+	footer{
+		text-align:center;
 	}
 
 
