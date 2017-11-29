@@ -19,6 +19,11 @@
 
 
 <body>
+<header>
+<section id="nav">
+        <figure id="logo">
+        <img src="./photos/logo_transparent.png" alt="Team Slumber Party Logo" />
+        </figure>
 	<nav class="main">
 		<ul>
 			<li><a href="../html/contact.html">Contact</a></li>
@@ -26,29 +31,34 @@
 			<li><a href="../html/forum.html">Forum</a></li>
 			<li><a href="../html/travel_walking_biking.html">Travel - Walking</a></li>
 			<li><a href="../html/travel_bus.html">Travel - Bus</a></li>
-			<li><a href="../html/about.html"> About</a><li>
+			<li><a href="../html/about.html"> About</a></li>
 			<li><a href="../index.html">Home</a></li>
 		</ul>
-    </nav>>
-	
-	<header>
-		<img src="" alt="Team Slumber party logo" />
+    </nav>
+    </section>
+
         <h1><strong>Forum - Input Page</strong></h1>
 	</header>
     
 	<section id="input_introduction">
     	<h3>Welcome to our Carpool Sign-up Page!</h3>
 		
-        <img href="" alt="Image of Carpooling" />
+        <a href="https://uwaterloo.ca/parking/sites/ca.parking/files/resize/styles/body-500px-wide/public/uploads/images/358546-253x258.jpg?itok=QtmcO0SL"><img href="../photos/forum_carpool.jpg" alt="Image of Carpooling" /></a> <!--https://uwaterloo.ca/parking/sites/ca.parking/files/resize/styles/body-500px-wide/public/uploads/images/358546-253x258.jpg?itok=QtmcO0SL-->
 		
-		<h3>Dislaimer</h3>
+		<h3>Disclaimer</h3>
 		<p>Please be aware that Team Slumber Party and the members within, nor NSCC take responsibility for anyone who chooses to use the Carpool Forum on this website. Practice proper caution when using online services such as this. Thank you.</p>
 
         <p>You can use our Form below to Sign-Up for Carpooling!</p>
     </section>
+    
+    <script>
+		function show_alert() {
+		alert("Thank you for Submitting your Information for carpooling!");
+		}
+	</script>
 	
 	<section id="input_section_form">
-		<form id="input_form_1" name="ICA9" method="GET" action="forum.html"/>
+		<form id="input_form_1" name="form_tsp_1" method="GET" action="forum_output.html"/>
 		<fieldset ="stuInfo">
 			<legend> Student information </legend>
 			
@@ -87,7 +97,7 @@
 			
 			<textarea name="comments" required id="comments" accesskey="p" rows="10" cols="40" maxlength="1000" ></textarea>
 			
-			<input type="submit" value="Submit My Information"/>
+			<input type="submit" value="Submit My Information" onclick="show_alert();"/>
 			<input type="reset" value="Cancel"/>
 		</fieldset>	
     </section>
